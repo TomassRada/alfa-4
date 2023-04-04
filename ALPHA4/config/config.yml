@@ -1,0 +1,6 @@
+host : 10.6.1.92
+port : 65429
+start_ip : 10.6.1.90
+end_ip : 10.6.1.92
+start_port : 65429
+end_port : 65430

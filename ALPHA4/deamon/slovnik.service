@@ -1,0 +1,13 @@
+[Unit]
+Description=Program slovnik
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/slovnik
+User=nobody
+WorkingDirectory=/var/empty
+Restart=on-failure
+RestartSecs=5
+
+[Install]
+WantedBy=multi-user.target
